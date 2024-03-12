@@ -84,7 +84,9 @@ header ul{
     color:#E5E7EB;
 }
 .sing-up-button{
-    padding: 12px 24px;
+    padding: 10px 24px;
+    height:45px;
+    width: 160px;
     border: 0;
     border-radius: 8px;
     background-color: #3882F6;
@@ -94,8 +96,7 @@ header ul{
     cursor: pointer;
 }
 .hero-button{
-    height:45px;
-    width: 160px;
+
     text-align: center;
     align-items: end;
 }
@@ -165,4 +166,32 @@ header ul{
     flex:1;
     display:flex;
     padding:80px 20%;
+}
+.call-to-action{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 36px 80px;
+    background-color: #3882F6;
+    color:#F9FAF8
+}
+.sing-up-content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+.call-to-action .title{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.call-to-action .text{
+    font-size: 18px;
+    font-weight: 200;
+}
+.call-to-action .sing-up-button{
+    border:2px solid #F9FAF8;
 }
