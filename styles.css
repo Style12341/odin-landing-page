@@ -109,6 +109,7 @@ header ul{
     gap:36px;
     padding: 36px 25%;
     padding-bottom: 64px;
+    overflow: auto;
 }
 .card-layout{
     display: flex;
@@ -194,4 +195,11 @@ header ul{
 }
 .call-to-action .sing-up-button{
     border:2px solid #F9FAF8;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+    padding: 0 20%;
 }
