@@ -109,7 +109,6 @@ header ul{
     gap:36px;
     padding: 36px 25%;
     padding-bottom: 64px;
-    overflow: auto;
 }
 .card-layout{
     display: flex;
